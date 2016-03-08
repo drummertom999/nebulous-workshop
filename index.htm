@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Nebulous</title>
+
+		<!-- EngineJS -->
+		<script type="text/javascript" src="enginejs/jquery.js"></script>
+		<script type="text/javascript" src="enginejs/engine.js"></script>
+
+		<!-- Icons -->
+		<link rel="shortcut icon" href="img/favicon.ico"/>
+		<link rel="apple-touch-icon" href="img/favicon.png">
+
+		<!-- Bootstrap -->
+		<script type="text/javascript" src="bootstrap.js"></script>
+
+		<!-- ******************************************************** -->
+		<!-- SET CURRENT EXERCISE HERE                                -->
+		<!-- ******************************************************** -->
+		<script type="text/javascript" src="exercises/exercise9.js"></script>
+
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="css/nebulous.css">
+
+		<!-- Entry point -->
+		<script language="javascript">
+		var g_aspect_ratio = 4 / 3;
+		$(document).ready(function()
+		{
+			Resources.on_loaded = function(resource, i, total)
+			{
+				var percent = Math.round(i / total * 100) + "%";
+				$("#loadinfo").html("Loading " + percent + "<br/><br/>" + resource);
+			}
+			Engine.Init(function()
+			{
+				// *********************************************************************************************************
+				// NOTE: bootstrap.js runs the main game loop and calls the Init / Update methods contained in the
+				//       currently loaded exercise JS file (exercises/exerciseX.js)
+				// *********************************************************************************************************
+				HelperInit();
+				return HelperUpdate;
+			}, Resources);
+		});
+		</script>
+	</head>
+
+	<body style="background-color:black;">
+		<div id="loader">
+			<img src="img/load.gif"/>
+			<div id="loadinfo">Loading 0%</div>
+		</div>
+		<canvas></canvas>
+	</body>
+</html>

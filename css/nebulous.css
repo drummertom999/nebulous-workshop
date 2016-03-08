@@ -1,0 +1,36 @@
+body
+{
+	background: #1a2949; /* Old browsers */
+	background: -moz-linear-gradient(left,  #1a2949 0%, #000000 40%, #000000 60%, #1a2949 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1a2949), color-stop(40%,#000000), color-stop(60%,#000000), color-stop(100%,#1a2949)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #1a2949 0%,#000000 40%,#000000 60%,#1a2949 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #1a2949 0%,#000000 40%,#000000 60%,#1a2949 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #1a2949 0%,#000000 40%,#000000 60%,#1a2949 100%); /* IE10+ */
+	background: linear-gradient(to right,  #1a2949 0%,#000000 40%,#000000 60%,#1a2949 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a2949', endColorstr='#1a2949',GradientType=1 ); /* IE6-9 */
+}
+
+canvas
+{
+	display:none;
+}
+
+#loader
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 300px;
+	height: 300px;
+	margin-top: -150px; /* Half the height */
+	margin-left: -150px; /* Half the width */
+	text-align:center;
+}
+
+#loadinfo
+{
+	font-family: Tahoma, Geneva, sans-serif;
+	margin-top: 20px;
+	color: #0986da;
+	font-weight:bold;
+}

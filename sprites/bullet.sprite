@@ -1,0 +1,16 @@
+{
+	"name"       : "Bullet",
+	"origin"     : [0, 0],
+	"textures"   :
+	{
+		"tx_bullet" : { "file": "img/bullet.png", "rows": 1, "cols": 1 }
+	},
+	"sequences"  :
+	{
+		"default" : { "texture" : "tx_bullet", "begin": [0, 0], "end": [0, 0], "speed" : 0, "loop" : false, "mirror": [0, 0] }
+	},
+	"collision_shapes" :
+	[
+		{ "type" : "circle", "offset" : [64, 64], "radius" : 50 }
+	]
+}

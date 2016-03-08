@@ -1,0 +1,39 @@
+{
+	"name"       : "Tri",
+	"model_data" :
+	{
+		"primitives" :
+		[
+			{
+				"name"           : "face",
+				"vertex_buffers" :
+				[
+					{
+						"name"           : "vertices",
+						"attribute_name" : "a_pos",
+						"item_size"      : 3,
+						"draw_mode"      : "triangles",
+						"stream"         :
+						[
+							-1.0,  1.0,  0.0,
+							 1.0, -1.0,  0.0,
+							-1.0, -1.0,  0.0
+						]
+					},
+					{
+						"name"           : "texture-coordinates",
+						"attribute_name" : "a_uv",
+						"item_size"      : 2,
+						"draw_mode"      : "triangles",
+						"stream"         :
+						[
+							0.0, 0.0,
+							1.0, 1.0,
+							0.0, 1.0
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,7 @@
+function Init()
+{
+}
+
+function Update()
+{
+}

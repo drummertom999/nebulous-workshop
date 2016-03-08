@@ -1,0 +1,16 @@
+{
+	"name"     : "Ship",
+	"origin"   : [0, 0],
+	"textures" :
+	{
+		"tx_ship" : { "file": "img/ship.png", "rows": 4, "cols": 4 }
+	},
+	"sequences" :
+	{
+		"idle" : { "texture" : "tx_ship", "begin": [0, 0], "end": [3, 3], "speed" : 20, "loop" : true, "mirror": [0, 0] }
+	},
+	"collision_shapes" :
+	[
+		{ "type" : "circle", "offset" : [64, 64], "radius" : 40 }
+	]
+}
