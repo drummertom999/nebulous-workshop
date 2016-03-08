@@ -23,7 +23,7 @@ Getting Started
 Running On Mobile / Tablet
 =======================
 * Make sure your device is on the same network as the host machine
-* Run play.bat
+* Run play.bat (play.sh on Linux)
 * Open Chrome / Safari on the device and enter the device url (this is shown in the pop-up shell on pc, see below)
 
 
