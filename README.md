@@ -19,3 +19,12 @@ Getting Started
 =======================
 * Run play.bat
 * When delivering as a workshop, modify the current exercise via index.html line #20
+
+Running On Mobile / Tablet
+=======================
+* Make sure your device is on the same network as the host machine
+* Run play.bat
+* Open Chrome / Safari on the device and enter the device url (this is shown in the pop-up shell on pc, see below)
+
+
+![shell.png](https://raw.githubusercontent.com/drummertom999/nebulous-workshop/master/img/shell.png)
