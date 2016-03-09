@@ -9,7 +9,7 @@ What's Included?
 * Full source
 * Game assets (sprites / backgrounds / sfx)
 * Incremental exercises 1 - 9
-* Presentation materials (aso available [here](https://docs.google.com/presentation/d/1RI0fdmmQDTtNAMXE1TyAMnCF57luMgrWFlh2jf8Qq9A/edit?usp=sharing))
+* Presentation materials (also available [here](https://docs.google.com/presentation/d/1RI0fdmmQDTtNAMXE1TyAMnCF57luMgrWFlh2jf8Qq9A/edit?usp=sharing))
 
 What Else Do I Need?
 =======================
